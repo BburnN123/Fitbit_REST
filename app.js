@@ -11,5 +11,6 @@ app.use('/fitbit', fitbitRoutes);
 //         message: "It works!"
 //     });
 // });
+console.log(app);
 
 module.exports = app;
