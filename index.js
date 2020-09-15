@@ -1,3 +1,5 @@
+console.log("test")
+
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
