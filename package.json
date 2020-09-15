@@ -1,27 +1,12 @@
 {
-  "name": "fitbit_rest",
+  "name": "fitbit",
   "version": "1.0.0",
-  "description": "rest_api",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BburnN123/Fitbit_REST.git"
-  },
-  "keywords": [
-    "node",
-    "restful",
-    "api"
-  ],
-  "author": "BburnN123",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/BburnN123/Fitbit_REST/issues"
-  },
-  "homepage": "https://github.com/BburnN123/Fitbit_REST#readme",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "express": "4.13.3"
+  },
+  "author": "BburnN123",
+  "license": "ISC"
 }
