@@ -15,7 +15,6 @@ router.get('/', (req, res, next) => {
    
 });
 
-
 router.post('/', (req, res, next) => {
     // connect to your database
 
@@ -27,8 +26,7 @@ router.post('/', (req, res, next) => {
         var request = new sql.Request();
         
         // query to the database and get the records
-        request.query('INSERT INTO heroku_accel3dc17b7d0a2d5d3.accel (acc_time, acc_json) VALUES ("1", "2")', function (err, recordset) {
-            
+        request.query('INSERT INTO heroku_3dc17b7d0a2d5d3.accel (acc_time, acc_json) VALUES ("1", "2")', function (err, recordset) {       
             if (err) console.log(err)
 
             // send records as a response
