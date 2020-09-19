@@ -20,7 +20,7 @@ var date = today.getFullYear()+'_'+(today.getMonth()+1)+'_'+today.getDate();
 var filename = "test_" + date + ".csv";
 var newLine= "\r\n";
 
-router.get('/accel', (req, res, next) => {
+router.post('/accel', (req, res, next) => {
     var arr_dict =
         {
             'time': req.query.time,
